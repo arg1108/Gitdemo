@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.605 s <<< FAILURE! - in TestSuite
+pagenavigation(TestCases.ValidateNavigation)  Time elapsed: 0.121 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/base/Function
+	at TestCases.ValidateNavigation.pagenavigation(ValidateNavigation.java:18)
+Caused by: java.lang.ClassNotFoundException: com.google.common.base.Function
+	at TestCases.ValidateNavigation.pagenavigation(ValidateNavigation.java:18)
+
